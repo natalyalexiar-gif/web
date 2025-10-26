@@ -1,0 +1,204 @@
+
+<!doctype html>
+<html lang="es">
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Rojas Industries — Catálogo Web</title>
+    <meta name="description" content="Catálogo web interactivo de muebles de melamina: veladores, alacenas, roperos, cómodas, camas y muebles para baño.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <h1 class="brand">Rojas <span>Industries</span></h1>
+            <nav>
+                <a href="#productos">Productos</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#contacto">Contactar</a>
+            </nav>
+        </div>
+    </header>
+
+<main>
+    <section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h2>Diseños modernos en melamina</h2>
+            <p>Veladores, alacenas, roperos, cómodas, camas y muebles para baño. Elige color, medidas y agenda tu cita.</p>
+            <a class="btn" href="#productos">Ver catálogo</a>
+        </div>
+        <img class="hero-img" src="img/final.jpg" alt="Muebles Rojas Industries">
+    </div>
+    </section>
+
+    <section id="productos" class="productos container">
+    <h3>Nuestros productos</h3>
+    <p class="lead">Selecciona un producto para ver detalles y escoger color.</p>
+    <div class="grid">
+        <article class="card">
+        <img src="img/comoda.jpeg" alt="cama" class="card-img">
+        <div class="card-body">
+            <h4 class="card-title">Cama</h4>
+            <p class="card-desc">Medidas: 45 cm (alto) x 40 cm (ancho) x 35 cm (fondo). Melamina resistente.</p>
+            <p class="medidas"><strong>Colores:</strong></p>
+            <div class="colors">
+                <button class="color-btn" data-color="Solido">Solido</button>
+                <button class="color-btn" data-color="Maderado">Maderado</button>
+                <button class="color-btn" data-color="Texturado">Texturado</button>
+            </div>
+            <div class="card-actions">
+            <button class="btn-outline seleccionar" data-product="Cama">Seleccionar</button>
+            <button class="btn" onclick="document.getElementById('contacto').scrollIntoView({behavior:'smooth'})">Agendar cita</button>
+            </div>
+        </div>
+        </article>
+
+        <article class="card">
+        <img src="img/alacenas.jpeg "alt="Alacena" class="card-img">
+        <div class="card-body">
+            <h4 class="card-title">Alacena</h4>
+            <p class="card-desc">Medidas: 180 cm x 80 cm x 40 cm. Ideal para cocina y despensa.</p>
+            <p class="medidas"><strong>Colores:</strong></p>
+            <div class="colors">
+                <button class="color-btn" data-color="Solido">Solido</button>
+                <button class="color-btn" data-color="Maderado">Maderado</button>
+                <button class="color-btn" data-color="Texturado">Texturado</button>
+            </div>
+            <div class="card-actions">
+                <button class="btn-outline seleccionar" data-product="Alacena">Seleccionar</button>
+                <button class="btn" onclick="document.getElementById('contacto').scrollIntoView({behavior:'smooth'})">Agendar cita</button>
+            </div>
+         </div>
+        </article>
+
+                <article class="card">
+        <img src="img/Ropero.jpeg" alt="Ropero" class="card-img">
+        <div class="card-body">
+            <h4 class="card-title">Ropero</h4>
+            <p class="card-desc">Medidas: 90cm x 120cm x 40cm. Ideal para dormitorio</p>
+            <p class="medidas"><strong>Colores:</strong></p>
+            <div class="colors">
+                <button class="color-btn" data-color="Solido">Solido</button>
+                <button class="color-btn" data-color="Maderado">Maderado</button>
+                <button class="color-btn" data-color="Texturado">Texturado</button>
+            </div>
+            <div class="card-actions">
+                <button class="btn-outline seleccionar" data-product="Ropero">Seleccionar</button>
+                <button class="btn" onclick="document.getElementById('contacto').scrollIntoView({behavior:'smooth'})">Agendar cita</button>
+            </div>
+         </div>
+        </article>
+
+                <article class="card">
+        <img src="img/Escritorio.jpeg" alt="Escritorio" class="card-img">
+        <div class="card-body">
+            <h4 class="card-title">Escritorio</h4>
+            <p class="card-desc">Medidas: 80cm x 120cm x 50cm. Ideal para oficinas y dormitorios.</p>
+            <p class="medidas"><strong>Colores:</strong></p>
+            <div class="colors">
+                <button class="color-btn" data-color="Solido">Solido</button>
+                <button class="color-btn" data-color="Maderado">Maderado</button>
+                <button class="color-btn" data-color="Texturado">Texturado</button>
+            </div>
+            <div class="card-actions">
+                <button class="btn-outline seleccionar" data-product="Escritorio">Seleccionar</button>
+                <button class="btn" onclick="document.getElementById('contacto').scrollIntoView({behavior:'smooth'})">Agendar cita</button>
+            </div>
+         </div>
+        </article>
+
+                <article class="card">
+        <img src="img/Tocador.jpeg" alt="Tocador" class="card-img">
+        <div class="card-body">
+            <h4 class="card-title">Tocador</h4>
+            <p class="card-desc">Medidas: 60cm x 80cm x 50cm. Ideal para dormitorios.</p>
+            <p class="medidas"><strong>Colores:</strong></p>
+            <div class="colors">
+                <button class="color-btn" data-color="Solido">Solido</button>
+                <button class="color-btn" data-color="Maderado">Maderado</button>
+                <button class="color-btn" data-color="Texturado">Texturado</button>
+            </div>
+            <div class="card-actions">
+                <button class="btn-outline seleccionar" data-product="Tocador">Seleccionar</button>
+                <button class="btn" onclick="document.getElementById('contacto').scrollIntoView({behavior:'smooth'})">Agendar cita</button>
+            </div>
+         </div>
+        </article>
+
+                <article class="card">
+        <img src="img/tiendas.jpeg" alt="Tiendas" class="card-img">
+        <div class="card-body">
+            <h4 class="card-title">Tiendas</h4>
+            <p class="card-desc">Medidas: Perzonalizadas</p>
+            <p class="medidas"><strong>Colores:</strong></p>
+            <div class="colors">
+                <button class="color-btn" data-color="Solido">Solido</button>
+                <button class="color-btn" data-color="Maderado">Maderado</button>
+                <button class="color-btn" data-color="Texturado">Texturado</button>
+            </div>
+            <div class="card-actions">
+                <button class="btn-outline seleccionar" data-product="Tiendas">Seleccionar</button>
+                <button class="btn" onclick="document.getElementById('contacto').scrollIntoView({behavior:'smooth'})">Agendar cita</button>
+            </div>
+         </div>
+        </article>
+    </div>
+    </section>
+
+    <section id="nosotros" class="nosotros container">
+        <h3>Sobre Rojas Industries</h3>
+        <p>Somos una empresa familiar dedicada a la fabricación de muebles de melamina con más de 14 años de experiencia. Ofrecemos diseños funcionales y garantía en nuestros productos.</p>
+        <ul>
+            <li>Materiales de alta calidad</li>
+            <li>Acabados personalizados</li>
+            <li>Servicio de entrega y montaje</li>
+        </ul>
+    </section>
+
+    <section id="contacto" class="contacto container">
+        <h3>Contactar / Agendar cita</h3>
+        <p class="lead">Completa el formulario y nos comunicaremos para confirmar tu cita.</p>
+
+        <form id="contactForm" class="form">
+        <label>Nombre completo
+            <input type="text" id="cliente" name="cliente" placeholder="Tu nombre" required>
+        </label>
+
+        <label>Teléfono o correo
+            <input type="text" id="contactoInfo" name="contactoInfo" placeholder="Ej: 6xxxxxxx o correo@ejemplo.com" required>
+        </label>
+
+        <label>Producto seleccionado
+            <input type="text" id="productoSel" name="productoSel" placeholder="Ej: Velador Modelo A" readonly>
+        </label>
+
+        <label>Color preferido
+            <input type="text" id="colorSel" name="colorSel" placeholder="Roble/ Blanco/ Nogal" readonly>
+        </label>
+
+        <label>Fecha de cita (opcional)
+            <input type="date" id="fecha" name="fecha">
+        </label>
+
+        <label>Mensaje (opcional)
+            <textarea id="mensaje" name="mensaje" rows="3" placeholder="Detalles: medidas especiales, entrega, etc."></textarea>
+        </label>
+
+        <div class="form-actions">
+            <button type="submit" class="btn">Enviar solicitud</button>
+            <button type="reset" class="btn-outline">Limpiar</button>
+        </div>
+        </form>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <p>&copy; <span id="year"></span> Rojas Industries — Soluciones Infinitas para tu hogar</p>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
